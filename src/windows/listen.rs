@@ -1,3 +1,5 @@
+#![allow(static_mut_refs)]
+
 use crate::rdev::{Event, EventType, ListenError};
 use crate::windows::common::{convert, set_key_hook, set_mouse_hook, HookError, HOOK, KEYBOARD};
 use std::os::raw::c_int;
